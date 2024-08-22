@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Реєстрація</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Головна</a></li>
+        <li><a href="./articles.html">Статті</a></li>
+        <li><a href="./catalog.html">Каталог</a></li>
+        <li><a href="./contacts.html">Контакти</a></li>
+        <li><a href="./gallery.html">Галерея</a></li>
+        <li><a href="./page-nav.html">Навігація</a></li>
+        <li><a href="./registration.html">Реєстрація</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Реєстрація</h1>
+
+      <form action="https://tests.fomenko.top/echo/index.php" method="get">
+        <div>
+          <label for="name">Прізвище ім'я:</label>
+          <input name="name" id="name" type="text" placeholder="Бондаренко Іван" required>
+        </div>
+
+        <div>
+          <label for="picture">Додати фотографію:</label>
+          <input name="picture" id="picture" type="file">
+        </div>
+
+        <div>
+          <label for="email"> Адреса електронної пошти: </label>
+          <input name="email" id="email" type="email" placeholder="some@gmail.com">
+        </div>
+
+        <div>
+          <label for="password">Пароль:</label>
+          <input name="password" id="password" type="password" placeholder="qwerty" required>
+        </div>
+
+        <div>
+          <label for="site-address">Адреса сайту:</label>
+          <input name="site-address" id="site-address" type="text" value="https://mysite.name">
+        </div>
+
+        <div>
+          <span>Оберіть стать:</span>
+
+          <label for="male"> чоловіча</label>
+          <input name="sex" id="male" type="radio" value="male">
+
+          <label for="female">жіноча</label>
+          <input name="sex" id="female" type="radio" value="female">
+        </div>
+
+        <div>
+          <label for="birthday">Оберіть дату народження: </label>
+          <input name="birthday" id="birthday" type="date">
+        </div>
+
+        <div>
+          <span>Оберіть кухню:</span>
+
+          <select name="food" id="food">
+            <option value="ua" selected>українська кухня</option>
+            <option value="ita">італійська кухня</option>
+            <option value="fra">французька кухня</option>
+            <option value="thi">тайська кухня</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="about">Про себе:</label>
+          <textarea name="about" id="about" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+          <button type="reset">Очистити форму</button>
+          <button type="submit">Зареєструватися</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+
+
+
+  <footer>
+    <p>&copy; 2024</p>
+  </footer>
+</body>
+
+</html>
