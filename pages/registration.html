@@ -28,48 +28,54 @@
       <h1>Реєстрація</h1>
 
       <form action="https://tests.fomenko.top/echo/index.php" method="get">
-        <div>
-          <label for="name">Прізвище ім'я:</label>
-          <input name="name" id="name" type="text" placeholder="Бондаренко Іван" required>
-        </div>
+        <fieldset>
+          <div>
+            <label for="name">Прізвище ім'я:</label>
+            <input name="name" id="name" type="text" placeholder="Бондаренко Іван" required>
+          </div>
 
-        <div>
-          <label for="picture">Додати фотографію:</label>
-          <input name="picture" id="picture" type="file">
-        </div>
+          <div>
+            <label for="picture">Додати фотографію:</label>
+            <input name="picture" id="picture" type="file">
+          </div>
 
-        <div>
-          <label for="email"> Адреса електронної пошти: </label>
-          <input name="email" id="email" type="email" placeholder="some@gmail.com">
-        </div>
+          <div>
+            <label for="email"> Адреса електронної пошти: </label>
+            <input name="email" id="email" type="email" placeholder="some@gmail.com">
+          </div>
 
-        <div>
-          <label for="password">Пароль:</label>
-          <input name="password" id="password" type="password" placeholder="qwerty" required>
-        </div>
+          <div>
+            <label for="password">Пароль:</label>
+            <input name="password" id="password" type="password" placeholder="qwerty" required>
+          </div>
 
-        <div>
-          <label for="site-address">Адреса сайту:</label>
-          <input name="site-address" id="site-address" type="text" value="https://mysite.name">
-        </div>
+          <div>
+            <label for="site-address">Адреса сайту:</label>
+            <input name="site-address" id="site-address" type="text" value="https://mysite.name">
+          </div>
+        </fieldset>
 
-        <div>
-          <span>Оберіть стать:</span>
+        <fieldset>
+          <legend>Оберіть стать:</legend>
 
-          <label for="male"> чоловіча</label>
-          <input name="sex" id="male" type="radio" value="male">
+          <div>
+            <label for="male"> чоловіча</label>
+            <input name="sex" id="male" type="radio" value="male">
+          </div>
 
-          <label for="female">жіноча</label>
-          <input name="sex" id="female" type="radio" value="female">
-        </div>
+          <div>
+            <label for="female">жіноча</label>
+            <input name="sex" id="female" type="radio" value="female">
+          </div>
+        </fieldset>
 
         <div>
           <label for="birthday">Оберіть дату народження: </label>
           <input name="birthday" id="birthday" type="date">
         </div>
 
-        <div>
-          <span>Оберіть кухню:</span>
+        <fieldset>
+          <legend>Оберіть кухню:</legend>
 
           <select name="food" id="food">
             <option value="ua" selected>українська кухня</option>
@@ -77,7 +83,7 @@
             <option value="fra">французька кухня</option>
             <option value="thi">тайська кухня</option>
           </select>
-        </div>
+        </fieldset>
 
         <div>
           <label for="about">Про себе:</label>
