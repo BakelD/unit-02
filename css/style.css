@@ -33,3 +33,34 @@ body {
   color: #ffc0cb;
   font-size: 20px;
 }
+
+/* ----------------- atricle ----------------- */
+
+.article-title {
+  color: #ee8282;
+  font-size: 28px;
+  border-bottom: 2px solid currentColor;
+}
+
+.article-link {
+  color: currentColor;
+}
+
+.article-description {
+  background-color: #ffff00;
+  color: #212121;
+}
+
+.article-more {
+  color: #ffffff;
+}
+
+.article-more:hover,
+.article-more:focus {
+  text-decoration: none;
+  color: #ee8282;
+}
+
+.article-transition {
+  color: #212121;
+}
