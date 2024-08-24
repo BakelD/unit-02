@@ -151,3 +151,10 @@ address {
 .address-link {
   color: #ffffff;
 }
+
+/* ----------------- page-nav ----------------- */
+
+.page-nav-link,
+.back-link {
+  color: #ee8290;
+}
