@@ -111,3 +111,29 @@ body {
   background-color: #ffa500;
   color: #ffffff;
 }
+
+/* ----------------- gallery ----------------- */
+
+.body-gallery {
+  background: url(../images/bird.png);
+  background-image: linear-gradient(to left, rgb(255, 255, 0, 0.3), rgb(255, 255, 0, 0.8)), url(../images/bird.png);
+
+  color: #212121;
+}
+
+.body-gallery .menu-link {
+  color: #212121;
+}
+
+.gallery-link {
+  color: currentColor;
+}
+
+.gallery-img {
+  max-width: 100%;
+  border: 5px solid #f00;
+}
+
+.gallery-img:hover {
+  border: 5px solid transparent;
+}
