@@ -74,3 +74,30 @@ body {
   font-weight: 700;
   color: #ff0000;
 }
+
+/* ----------------- catalog ----------------- */
+
+.catalog-item {
+  font-size: 20px;
+}
+
+.catalog-item::before,
+.sub-catalog-item:before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.catalog-item::before {
+  background-image: url(../images/circle.svg);
+}
+
+.sub-catalog-item:before {
+  background-image: url(../images/circle-o.svg);
+}
