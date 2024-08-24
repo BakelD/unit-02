@@ -6,3 +6,12 @@ body {
   background: url(../images/rocket.png) right 20px top 20px/ 100px no-repeat,
     url(../images/bg.jpg) center / cover no-repeat;
 }
+
+.container {
+  width: 100vw;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
