@@ -27,6 +27,20 @@ body {
   text-decoration: none;
 }
 
+.btn {
+  padding: 6px 12px;
+  background-color: #2370d6;
+  color: #ffff00;
+  border: 3px solid #ffff00;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: transparent;
+}
+
 /* ----------------- form ----------------- */
 
 .form {
