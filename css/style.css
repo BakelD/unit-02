@@ -1,1 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
 
+  background: url(../images/rocket.png) right 20px top 20px/ 100px no-repeat,
+    url(../images/bg.jpg) center / cover no-repeat;
+}
