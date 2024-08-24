@@ -64,3 +64,13 @@ body {
 .article-transition {
   color: #212121;
 }
+
+.article-heading {
+  text-align: center;
+}
+
+.article-text::first-letter {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ff0000;
+}
