@@ -137,3 +137,17 @@ body {
 .gallery-img:hover {
   border: 5px solid transparent;
 }
+
+/* ----------------- contacts ----------------- */
+
+address {
+  font-style: normal;
+}
+
+.address-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.address-link {
+  color: #ffffff;
+}
