@@ -31,59 +31,59 @@
       <div class="container">
         <h1>Реєстрація</h1>
 
-        <form action="https://tests.fomenko.top/echo/index.php" method="get">
-          <fieldset>
-            <div>
-              <label for="name">Прізвище ім'я:</label>
-              <input name="name" id="name" type="text" placeholder="Бондаренко Іван" required>
+        <form class="form" action="https://tests.fomenko.top/echo/index.php" method="get">
+          <fieldset class="form-fieldset">
+            <div class="form-group">
+              <label class="form-label" for="name">Прізвище ім'я:</label>
+              <input class="form-field" name="name" id="name" type="text" placeholder="Бондаренко Іван" required>
             </div>
 
-            <div>
-              <label for="picture">Додати фотографію:</label>
-              <input name="picture" id="picture" type="file">
+            <div class="form-group">
+              <label class="form-label" for="picture">Додати фотографію:</label>
+              <input class="form-field" name="picture" id="picture" type="file">
             </div>
 
-            <div>
-              <label for="email"> Адреса електронної пошти: </label>
-              <input name="email" id="email" type="email" placeholder="some@gmail.com">
+            <div class="form-group">
+              <label class="form-label" for="email"> Адреса електронної пошти: </label>
+              <input class="form-field" name="email" id="email" type="email" placeholder="some@gmail.com">
             </div>
 
-            <div>
-              <label for="password">Пароль:</label>
-              <input name="password" id="password" type="password" placeholder="qwerty" required>
+            <div class="form-group">
+              <label class="form-label" for="password">Пароль:</label>
+              <input class="form-field" name="password" id="password" type="password" placeholder="qwerty" required>
             </div>
 
-            <div>
-              <label for="site-address">Адреса сайту:</label>
-              <input name="site-address" id="site-address" type="text" value="https://mysite.name">
+            <div class="form-group">
+              <label class="form-label" for="site-address">Адреса сайту:</label>
+              <input class="form-field" name="site-address" id="site-address" type="text" value="https://mysite.name">
             </div>
           </fieldset>
 
-          <fieldset>
+          <fieldset class="form-fieldset">
             <legend>Оберіть стать:</legend>
 
-            <div>
-              <label for="male"> чоловіча</label>
-              <input name="sex" id="male" type="radio" value="male">
+            <div class="form-group">
+              <label class="form-special" for="male"> чоловіча</label>
+              <input class="form-special" name="sex" id="male" type="radio" value="male">
             </div>
 
-            <div>
-              <label for="female">жіноча</label>
+            <div class="form-group">
+              <label class="form-special" for="female">жіноча</label>
               <input name="sex" id="female" type="radio" value="female">
             </div>
           </fieldset>
 
-          <fieldset>
+          <fieldset class="form-fieldset">
             <div>
-              <label for="birthday">Оберіть дату народження: </label>
-              <input name="birthday" id="birthday" type="date">
+              <label class="form-label" for="birthday">Оберіть дату народження: </label>
+              <input class="form-field" name="birthday" id="birthday" type="date">
             </div>
           </fieldset>
 
-          <fieldset>
-            <label for="food">Оберіть кухню:</label>
+          <fieldset class="form-fieldset">
+            <label class="form-label" for="food">Оберіть кухню:</label>
 
-            <select name="food" id="food">
+            <select class="form-field" name="food" id="food">
               <option value="ua" selected>українська кухня</option>
               <option value="ita">італійська кухня</option>
               <option value="fra">французька кухня</option>
@@ -91,10 +91,10 @@
             </select>
           </fieldset>
 
-          <fieldset>
-            <div>
-              <label for="about">Про себе:</label>
-              <textarea name="about" id="about" cols="30" rows="10"></textarea>
+          <fieldset class="form-fieldset">
+            <div class="form-group">
+              <label class="form-label" for="about">Про себе:</label>
+              <textarea class="form-field" name="about" id="about" cols="30" rows="10"></textarea>
             </div>
           </fieldset>
 

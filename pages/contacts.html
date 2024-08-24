@@ -56,26 +56,28 @@
     <section>
       <div class="container">
         <h2>Форма зворотного зв'язку</h2>
-        <form action="https://tests.fomenko.top/echo/index.php" method="get">
-          <fieldset>
-            <div>
-              <label for="name">ім'я:</label>
-              <input name="name" id="name" type="text" placeholder="Iванов Iван">
+
+        <form class="form" action="https://tests.fomenko.top/echo/index.php" method="get">
+          <fieldset class="form-fieldset">
+            <div class="form-group">
+              <label class="form-label" for="name">ім'я:</label>
+              <input class="form-field" name="name" id="name" type="text" placeholder="Iванов Iван">
             </div>
 
-            <div>
-              <label for="tel">телефон:</label>
-              <input name="tel" id="tel" type="tel" placeholder="0931111111">
+            <div class="form-group">
+              <label class="form-label" for="tel">телефон:</label>
+              <input class="form-field" name="tel" id="tel" type="tel" placeholder="0931111111">
             </div>
 
-            <div>
-              <label for="email">email: </label>
-              <input name="email" id="email" type="email" placeholder="some@gmail.com">
+            <div class="form-group">
+              <label class="form-label" for="email">email: </label>
+              <input class="form-field" name="email" id="email" type="email" placeholder="some@gmail.com">
             </div>
 
-            <div>
-              <label for="question">задайте питання:</label>
-              <textarea name="question" id="question" cols="30" rows="10" placeholder="тут Ваше питання"></textarea>
+            <div class="form-group">
+              <label class="form-label" for="question">задайте питання:</label>
+              <textarea class="form-field" name="question" id="question" cols="30" rows="10"
+                placeholder="тут Ваше питання"></textarea>
             </div>
 
             <button type="submit">відправити</button>
