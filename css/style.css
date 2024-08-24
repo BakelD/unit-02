@@ -101,3 +101,13 @@ body {
 .sub-catalog-item:before {
   background-image: url(../images/circle-o.svg);
 }
+
+.special-new::after {
+  content: 'new';
+  display: inline-block;
+  margin-left: 10px;
+  padding: 2px;
+
+  background-color: #ffa500;
+  color: #ffffff;
+}
