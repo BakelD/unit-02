@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -8,6 +12,11 @@ body {
 
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
 }
 
 .container {
@@ -227,6 +236,16 @@ body {
   border-bottom: 3px solid #212121;
 }
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .gallery-link {
   color: currentColor;
 }
@@ -238,6 +257,14 @@ body {
 
 .gallery-img:hover {
   border: 5px solid transparent;
+}
+
+.gallery-figure {
+  margin: 0;
+}
+
+.gallery-text {
+  text-align: center;
 }
 
 /* ----------------- contacts ----------------- */
