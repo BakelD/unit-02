@@ -124,6 +124,13 @@ body {
   border-bottom: 3px solid #ffc0cb;
 }
 
+/* ----------------- hero ----------------- */
+
+.hero-title {
+  font-size: 40px;
+  text-align: center;
+}
+
 /* ----------------- atricle ----------------- */
 
 .article-title {
